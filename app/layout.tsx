@@ -22,7 +22,8 @@ const chilankaFont = Chilanka({
 
 export const metadata: Metadata = {
   title: 'Puppy',
-  description: "Coinbase's Tiny Dog",
+  description:
+    "Puppy - Coinbase's tiny dog, the image of Puppy has been shared on the official Coinbase account. Puppy was shared on Coinbase's Instagram in February 2015 and has become Coinbase's only tiny dog.",
 };
 
 export default function RootLayout({
