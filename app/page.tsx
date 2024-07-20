@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Hero from './hero';
 import Marquee from './marquee';
 import Tokenomics from './tokenomics';
+import About from './about';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <Marquee />
       <Tokenomics />
+      <About />
     </>
   );
 }
