@@ -10,4 +10,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .bg-linear {
+    background: linear-gradient(173deg, #ffebeb -1.83%, #2245ff 120.38%);
+  }
 }
