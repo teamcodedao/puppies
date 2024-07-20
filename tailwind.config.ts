@@ -13,7 +13,10 @@ const config: Config = {
       },
       fontFamily: {
         chilanka: ['var(--chilanka-font)'],
-        nanumPen: ['var(--nanum-pen-font)'],
+        'nanum-pen': ['var(--nanum-pen-font)'],
+      },
+      colors: {
+        primary: '#2245FF',
       },
     },
   },

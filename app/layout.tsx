@@ -32,7 +32,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={clsx(font.className, chilankaFont.variable)}>
+      <body
+        className={clsx(
+          font.className,
+          chilankaFont.variable,
+          nanumPenFont.variable
+        )}
+      >
         {children}
       </body>
     </html>
