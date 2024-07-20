@@ -16,7 +16,8 @@ const config: Config = {
         'nanum-pen': ['var(--nanum-pen-font)'],
       },
       colors: {
-        primary: '#2245FF',
+        primary: 'var(--primary-color)',
+        secondary: '#2F9FF0',
       },
     },
   },
