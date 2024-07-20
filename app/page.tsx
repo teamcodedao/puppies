@@ -15,8 +15,12 @@ export default function Home() {
       <Marquee />
       <Tokenomics />
       <About />
-      <div className='mt-10 flex justify-center px-5 lg:mt-0 xl:px-0'>
-        <Image src={hashTagImg} alt='' />
+      <div className='mt-10 flex justify-center overflow-hidden px-5 lg:mt-0 xl:px-0'>
+        <Image
+          src={hashTagImg}
+          alt=''
+          className='max-[600px]:multi-[w-[800px];object-cover;max-w-none;object-left]'
+        />
       </div>
       <Footer />
     </>
