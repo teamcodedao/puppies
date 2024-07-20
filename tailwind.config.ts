@@ -11,6 +11,10 @@ const config: Config = {
       screens: {
         xl: '1261px',
       },
+      fontFamily: {
+        chilanka: ['var(--chilanka-font)'],
+        nanumPen: ['var(--nanum-pen-font)'],
+      },
     },
   },
   plugins: [require('tailwindcss-multi')],

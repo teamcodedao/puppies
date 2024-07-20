@@ -1,10 +1,23 @@
 import type {Metadata} from 'next';
-import {Nanum_Pen_Script} from 'next/font/google';
+import {Gloria_Hallelujah, Nanum_Pen_Script, Chilanka} from 'next/font/google';
+import clsx from 'clsx';
 import './globals.css';
 
-const font = Nanum_Pen_Script({
+const font = Gloria_Hallelujah({
   weight: ['400'],
   subsets: ['latin'],
+});
+
+const nanumPenFont = Nanum_Pen_Script({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--nanum-pen-font',
+});
+
+const chilankaFont = Chilanka({
+  weight: ['400'],
+  subsets: ['latin'],
+  variable: '--chilanka-font',
 });
 
 export const metadata: Metadata = {
@@ -19,7 +32,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={font.className}>{children}</body>
+      <body className={clsx(font.className, chilankaFont.variable)}>
+        {children}
+      </body>
     </html>
   );
 }

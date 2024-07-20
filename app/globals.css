@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  @apply bg-[url(./background.svg)] bg-cover;
 }
 
 @layer utilities {
